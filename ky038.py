@@ -9,7 +9,7 @@ flag=False
 delay=0.05
 print("inicio")
 while True:
-   if GPIO.input(4):
+   if GPIO.input(23):
        time.sleep(180) 
        flag=not flag
        print(flag)
